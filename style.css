@@ -1,0 +1,39 @@
+body {
+	background-image: url(http://musiccitiessummit.com/wp-content/uploads/chicago-1.jpg);
+	background-size: cover;
+}
+
+.title {
+	font-family: 'Oswald', sans-serif;
+	font-size: 45px;
+	text-align: center;
+}
+
+hr {
+	  height: 25px; border-style: solid; border-color: rgb(173,255,47); border-width: 10px 0 0 0; border-radius: 20px;
+	}
+
+.textbutton {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.texthr {
+	font-size: 60px;
+	margin-top: 250px;
+	color: rgb(173,255,47)
+}
+
+.btn {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;
+	width: 22.5%;
+	transition: all 1s;
+}
+
+.btn:hover {
+	transform: scale(1.1);
+}
